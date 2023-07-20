@@ -295,20 +295,30 @@ section.contents .contact .inner {
     font-size: 17px;
     line-height: 1.4;
 }
-section.contents .contact .inner {
-
+section.contents .contact .inner .tel {
+    font-size: 55px;
+    font-weight: 700;
+    margin: 50px 0;
 }
 
-/* footer style */
+/* footer */
+footer {
+    background: #1b1b1b;
+    color: #999;
+    padding: 0 80px 80px;
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 footer ul li:nth-child(2) {
     color: #eee;
     font-size: 16px;
-    
+    line-height: 2;
 }
-footer .go-top{
-    color: #fff;
-    font-size: 50px;
-    position: fixed;
-    right: 50px;
-    bottom: 60px;
+footer ul li:nth-child(2) span {
+    font-weight: 700;
+    margin-right: 10px;
+    color: #999;
 }
